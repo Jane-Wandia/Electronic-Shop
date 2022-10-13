@@ -8,13 +8,16 @@
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: rgb(24, 199, 141);
 }
 .logo{
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     padding: 40px;
+}
+.header-links{
+    display: flex;
 }
 .header-link ul li{
     list-style: none;
@@ -27,4 +30,6 @@
     color: white;
     padding: 0px 15px;
 }
-.header
+.header-links ul li a:hover{
+    color: blue;
+}
