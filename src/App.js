@@ -13,7 +13,7 @@ const App = () => {
   <div>
     <Router>
         <Header/>
-        <Routes/>
+        <Routes productItems={productItems}/>
     </Router>
 
 </div>
