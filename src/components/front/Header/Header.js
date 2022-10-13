@@ -25,9 +25,9 @@ const Header = () => {
             </ul>
             <ul>
                 <li>
-                  <Link to="/cart">Cart</Link>  
-                </li>  
-            </ul>
+                  <Link to="/basket">Basket</Link>
+                  </li>
+                  </ul>
         </div>
     </header>
   );
